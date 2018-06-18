@@ -2,4 +2,6 @@
     <string name="app_name">Project_Generic</string>
     <string name="action_settings">Settings</string>
     <string name="coding_buddy">Coding Buddy</string>
+    <string name="log_in">Log in:</string>
+    <string name="username">Username</string>
 </resources>
