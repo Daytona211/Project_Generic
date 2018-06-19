@@ -4,4 +4,11 @@
     <string name="coding_buddy">Coding Buddy</string>
     <string name="log_in">Log in:</string>
     <string name="username">Username</string>
+    <string name="title_activity_what_to_do">whatToDo</string>
+    <string name="version_1_0_alpha">Version: 1.0_Alpha</string>
+    <string name="study">Study</string>
+    <string name="what_would_you_like_to_do">What would you like to do?</string>
+    <string name="learn_a_language">Learn A language</string>
+    <string name="title_activity_languages_activity">languages_activity</string>
+    <string name="title_activity_exercise_activity">exercise_activity</string>
 </resources>

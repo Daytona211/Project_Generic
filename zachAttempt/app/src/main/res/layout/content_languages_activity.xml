@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".languages_activity"
+    android:background="#6c697fff"
+    tools:showIn="@layout/activity_languages_activity">
+
+    <TextView
+        android:id="@+id/txt_lang_username"
+        android:layout_width="101dp"
+        android:layout_height="19dp"
+        android:layout_marginEnd="276dp"
+        android:layout_marginRight="276dp"
+        android:text="@string/username"
+        android:textColor="#efff0012"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_lang_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/version_1_0_alpha"
+        android:textColor="#efff0012"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_lang_prompt"
+        android:layout_width="302dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="128dp"
+        android:text="Please Choose a language"
+        android:textColor="#1437ff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_lang_java"
+        android:layout_width="111dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:layout_marginTop="204dp"
+        android:background="#8bff0012"
+        android:text="Java"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_lang_c"
+        android:layout_width="111dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:layout_marginTop="308dp"
+        android:background="#8bff0012"
+        android:text="C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
