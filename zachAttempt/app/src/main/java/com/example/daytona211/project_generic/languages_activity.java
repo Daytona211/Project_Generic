@@ -1,11 +1,13 @@
 package com.example.daytona211.project_generic;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 
 public class languages_activity extends AppCompatActivity {
 
@@ -24,6 +26,26 @@ public class languages_activity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+     /*   // Handles changing to JAVA activity
+        Button java = (Button)findViewById(R.id.btn_lang_java);
+        java.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(languages_activity.this, //FILL IN NEXT ACTIVITY.class));
+                }
+        }
+        );*/
+
+          /*   // Handles changing to C activity
+        Button c = (Button)findViewById(R.id.btn_lang_c);
+        c.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(languages_activity.this, //FILL IN NEXT ACTIVITY.class));
+                }
+        }
+        );*/
     }
 
 }
