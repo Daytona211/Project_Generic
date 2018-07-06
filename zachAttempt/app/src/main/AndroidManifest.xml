@@ -30,6 +30,14 @@
         <activity
             android:name=".exercise_activity"
             android:label="@string/title_activity_exercise_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".topics_selection_java"
+            android:label="@string/title_activity_topics_selection_java"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lesson_activity"
+            android:label="@string/title_activity_lesson_activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
