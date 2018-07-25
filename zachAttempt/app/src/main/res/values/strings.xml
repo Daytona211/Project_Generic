@@ -20,4 +20,6 @@
     <string name="classes_methods">Classes/Methods</string>
     <string name="object_oriented">Object Oriented</string>
     <string name="title_activity_lesson_activity">lesson_activity</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
 </resources>
